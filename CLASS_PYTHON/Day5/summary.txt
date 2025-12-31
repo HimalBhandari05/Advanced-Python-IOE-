@@ -1,0 +1,3 @@
+RDBMS -> database models which stores data in the form of tables and rows.
+
+we use SQLite.
