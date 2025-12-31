@@ -1,0 +1,9 @@
+{
+    "Name":"Himal",
+    "Address":"Dharan",
+    "Age":34,
+    "Additional":{
+        "Name":"Himal",
+        "Age":34
+    }
+}
