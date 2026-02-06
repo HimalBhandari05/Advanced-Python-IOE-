@@ -1,0 +1,11 @@
+id,name,email,age,city,salary,department,date
+1,Alice Johnson,mode,28.0,mode,75000.0,Engineering,2021-03-15
+2,Bob Smith,bob.smith@email.com,34.0,San Francisco,85000.0,Engineering,2019-07-22
+3,Carol Williams,carol.williams@email.com,29.0,Boston,72000.0,mode,2020-11-10
+4,mode,david.brown@email.com,45.0,Chicago,95000.0,Management,2015-01-05
+5,Emma Davis,emma.davis@email.com,26.0,Seattle,68000.0,HR,2022-05-18
+6,Frank Miller,mode,33.111111111111114,Austin,82000.0,mode,2018-09-12
+7,Grace Lee,grace.lee@email.com,31.0,Denver,78000.0,Engineering,2020-02-28
+8,Henry Wilson,henry.wilson@email.com,42.0,Boston,92000.0,Management,2016-06-14
+9,mode,iris.taylor@email.com,27.0,New York,81666.66666666667,Marketing,2021-10-01
+10,Jack Anderson,jack.anderson@email.com,36.0,mode,88000.0,Sales,mode
