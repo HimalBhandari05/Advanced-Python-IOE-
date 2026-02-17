@@ -1,0 +1,207 @@
+{
+    "application": {
+        "name": "EduTrack Pro",
+        "version": "2.5.1",
+        "environment": "production",
+        "releaseDate": "2026-02-15",
+        "maintainers": [
+            {
+                "id": 1,
+                "name": "Aarav Sharma",
+                "email": "aarav.sharma@example.com",
+                "role": "Lead Developer",
+                "active": true
+            },
+            {
+                "id": 2,
+                "name": "Maya Thapa",
+                "email": "maya.thapa@example.com",
+                "role": "Project Manager",
+                "active": true
+            }
+        ]
+    },
+    "users": [
+        {
+            "userId": "U1001",
+            "username": "himal_dev",
+            "profile": {
+                "firstName": "Himal",
+                "lastName": "Karki",
+                "age": 20,
+                "gender": "male",
+                "email": "himal@example.com",
+                "phone": "+9779812345678",
+                "address": {
+                    "street": "New Baneshwor",
+                    "city": "Kathmandu",
+                    "province": "Bagmati",
+                    "postalCode": "44600",
+                    "country": "Nepal"
+                }
+            },
+            "roles": [
+                "student",
+                "developer"
+            ],
+            "isVerified": true,
+            "createdAt": "2025-01-10T10:15:30Z",
+            "lastLogin": "2026-02-17T08:25:10Z",
+            "preferences": {
+                "theme": "dark",
+                "language": "en",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                }
+            },
+            "coursesEnrolled": [
+                {
+                    "courseId": "C101",
+                    "title": "Advanced Django Development",
+                    "progress": 72,
+                    "completed": false,
+                    "modules": [
+                        {
+                            "moduleId": "M1",
+                            "title": "Models & ORM",
+                            "completed": true,
+                            "score": 88.5
+                        },
+                        {
+                            "moduleId": "M2",
+                            "title": "Forms & Validation",
+                            "completed": true,
+                            "score": 91
+                        },
+                        {
+                            "moduleId": "M3",
+                            "title": "REST API with DRF",
+                            "completed": false,
+                            "score": null
+                        }
+                    ]
+                },
+                {
+                    "courseId": "C202",
+                    "title": "Data Structures & Algorithms",
+                    "progress": 45,
+                    "completed": false,
+                    "modules": [
+                        {
+                            "moduleId": "M1",
+                            "title": "Arrays & Strings",
+                            "completed": true,
+                            "score": 85
+                        },
+                        {
+                            "moduleId": "M2",
+                            "title": "Linked Lists",
+                            "completed": false,
+                            "score": null
+                        }
+                    ]
+                }
+            ],
+            "paymentHistory": [
+                {
+                    "paymentId": "P9001",
+                    "amount": 4999.99,
+                    "currency": "NPR",
+                    "status": "completed",
+                    "method": "eSewa",
+                    "transactionDate": "2025-02-10T14:20:00Z"
+                },
+                {
+                    "paymentId": "P9002",
+                    "amount": 2999.50,
+                    "currency": "NPR",
+                    "status": "pending",
+                    "method": "Khalti",
+                    "transactionDate": "2026-01-05T09:10:00Z"
+                }
+            ]
+        },
+        {
+            "userId": "U1002",
+            "username": "sara_codes",
+            "profile": {
+                "firstName": "Sara",
+                "lastName": "Adhikari",
+                "age": 19,
+                "gender": "female",
+                "email": "sara@example.com",
+                "phone": "+9779801122334",
+                "address": {
+                    "street": "Lakeside",
+                    "city": "Pokhara",
+                    "province": "Gandaki",
+                    "postalCode": "33700",
+                    "country": "Nepal"
+                }
+            },
+            "roles": [
+                "student"
+            ],
+            "isVerified": false,
+            "createdAt": "2025-06-01T12:00:00Z",
+            "lastLogin": null,
+            "preferences": {
+                "theme": "light",
+                "language": "en",
+                "notifications": {
+                    "email": true,
+                    "sms": true,
+                    "push": false
+                }
+            },
+            "coursesEnrolled": [],
+            "paymentHistory": []
+        }
+    ],
+    "systemSettings": {
+        "maxUsers": 10000,
+        "maintenanceMode": false,
+        "backup": {
+            "enabled": true,
+            "frequency": "daily",
+            "lastBackup": "2026-02-16T02:00:00Z"
+        },
+        "security": {
+            "passwordPolicy": {
+                "minLength": 8,
+                "requireUppercase": true,
+                "requireNumbers": true,
+                "requireSpecialCharacters": true
+            },
+            "twoFactorAuth": {
+                "enabled": true,
+                "methods": [
+                    "sms",
+                    "authenticator_app"
+                ]
+            }
+        }
+    },
+    "logs": [
+        {
+            "logId": "L001",
+            "level": "INFO",
+            "message": "User login successful",
+            "timestamp": "2026-02-17T08:25:10Z"
+        },
+        {
+            "logId": "L002",
+            "level": "WARNING",
+            "message": "Payment pending for user U1001",
+            "timestamp": "2026-02-17T08:30:00Z"
+        },
+        {
+            "logId": "L003",
+            "level": "ERROR",
+            "message": "Failed email delivery",
+            "timestamp": "2026-02-17T08:45:22Z"
+        }
+    ]
+}
